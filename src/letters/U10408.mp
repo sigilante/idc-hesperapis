@@ -1,5 +1,5 @@
-% U+10406 𐐆
-beginfig(406) ;
+% U+10408 𐐈
+beginfig(408) ;
   x_radius := 0.4 * font_size;
   y_radius := 0.5 * font_size;
 
@@ -18,6 +18,6 @@ beginfig(406) ;
          -- (.5*x_radius,-.05*y_radius)
         -- (.5*x_radius,.19*y_radius)
         -- cycle;
-  draw bar;
-  fill bar;
+  draw bar shifted (-.5*x_radius,-y_radius);
+  fill bar shifted (-.5*x_radius,-y_radius);
 endfig;

@@ -19,5 +19,7 @@ input letters/U10404.mp; % Deseret Capital Letter Long O (𐐄)
 input letters/U10405.mp; % Deseret Capital Letter Long Oo (𐐅)
 input letters/U10406.mp;
 input letters/U10407.mp;
+input letters/U10408.mp;
+input letters/U10409.mp;
 
 end
