@@ -1,0 +1,61 @@
+%!PS
+%%BoundingBox: -3 -39 32 39 
+%%HiResBoundingBox: -2.86931 -38.73473 31.5612 38.73473 
+%%Creator: MetaPost 2.02
+%%CreationDate: 2024.09.19:1811
+%%Pages: 1
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 setrgbcolor 5.7386
+ 0 dtransform exch truncate exch idtransform pop setlinewidth [] 0 setdash
+ 1 setlinecap 1 setlinejoin 10 setmiterlimit
+gsave newpath 0 -35.86542 moveto
+0 35.86542 lineto
+-1 -1 scale stroke grestore
+ 0 5.7386 dtransform truncate idtransform setlinewidth pop
+gsave newpath 0 35.86542 moveto
+0 32.06047 1.51173 28.4118 4.20204 25.72151 curveto
+6.89233 23.0312 10.541 21.51947 14.34595 21.51947 curveto
+18.1509 21.51947 21.79956 23.0312 24.48985 25.72151 curveto
+27.18016 28.4118 28.6919 32.06047 28.6919 35.86542 curveto
+28.6919 35.86542 lineto
+25.30528 31.34993 19.99031 28.69244 14.34595 28.69244 curveto
+8.70158 28.69244 3.38661 31.34993 0 35.86542 curveto
+ closepath
+-1 -1 scale stroke grestore
+newpath 0 35.86542 moveto
+0 32.06047 1.51173 28.4118 4.20204 25.72151 curveto
+6.89233 23.0312 10.541 21.51947 14.34595 21.51947 curveto
+18.1509 21.51947 21.79956 23.0312 24.48985 25.72151 curveto
+27.18016 28.4118 28.6919 32.06047 28.6919 35.86542 curveto
+28.6919 35.86542 lineto
+25.30528 31.34993 19.99031 28.69244 14.34595 28.69244 curveto
+8.70158 28.69244 3.38661 31.34993 0 35.86542 curveto
+ closepath fill
+ 5.7386 0 dtransform exch truncate exch idtransform pop setlinewidth
+gsave newpath 0 -35.86542 moveto
+0 35.86542 lineto
+-1 -1 scale stroke grestore
+ 0 5.7386 dtransform truncate idtransform setlinewidth pop
+gsave newpath 0 35.86542 moveto
+0 32.06047 1.51173 28.4118 4.20204 25.72151 curveto
+6.89233 23.0312 10.541 21.51947 14.34595 21.51947 curveto
+18.1509 21.51947 21.79956 23.0312 24.48985 25.72151 curveto
+27.18016 28.4118 28.6919 32.06047 28.6919 35.86542 curveto
+28.6919 35.86542 lineto
+25.30528 31.34993 19.99031 28.69244 14.34595 28.69244 curveto
+8.70158 28.69244 3.38661 31.34993 0 35.86542 curveto
+ closepath
+-1 -1 scale stroke grestore
+newpath 0 35.86542 moveto
+0 32.06047 1.51173 28.4118 4.20204 25.72151 curveto
+6.89233 23.0312 10.541 21.51947 14.34595 21.51947 curveto
+18.1509 21.51947 21.79956 23.0312 24.48985 25.72151 curveto
+27.18016 28.4118 28.6919 32.06047 28.6919 35.86542 curveto
+28.6919 35.86542 lineto
+25.30528 31.34993 19.99031 28.69244 14.34595 28.69244 curveto
+8.70158 28.69244 3.38661 31.34993 0 35.86542 curveto
+ closepath fill
+showpage
+%%EOF

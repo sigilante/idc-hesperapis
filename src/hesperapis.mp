@@ -21,5 +21,8 @@ input letters/U10406.mp;
 input letters/U10407.mp;
 input letters/U10408.mp;
 input letters/U10409.mp;
+input letters/U1040a.mp;
+input letters/U1040b.mp;
+input letters/U1040c.mp;
 
 end

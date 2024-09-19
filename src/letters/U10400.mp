@@ -20,7 +20,7 @@ beginfig(400) ;
 
   path inner_shape;
   inner_shape := reverse top_segment
-                 .. bottom_segment;
+                 .. reverse bottom_segment;
 
   draw inner_shape;
 
@@ -32,14 +32,20 @@ beginfig(400) ;
 
   path rhs;
   rhs := outer_circle cutbefore point 0 of outer_circle cutafter point 2 of outer_circle
-         --  point 2 of outer_circle
-         --  point 2 of inner_circle_hi
-         --  inner_circle_hi cutbefore point 0 of inner_circle_hi cutafter point 2 of inner_circle_hi
+         ..  inner_shape cutbefore point 2 of inner_shape cutafter point 7 of inner_shape
+         ..  outer_circle cutbefore point 6 of outer_circle cutafter point 8 of outer_circle
+         %--  point 2 of inner_circle_hi
+         %--  inner_circle_hi cutbefore point 0 of inner_circle_hi cutafter point 2 of inner_circle_hi
          %..  point 8 of outer_circle
          %..  reverse outer_circle cutbefore point 6 of outer_circle cutafter point 8 of outer_circle
          %..  point 6 of inner_circle_lo
          %..  inner_circle_lo cutbefore point 6 of inner_circle_lo cutafter point 8 of inner_circle_lo
-         ; %-- cycle;
+         .. cycle
+         ;
 
-draw (rhs) withcolor red;
+%draw inner_shape cutbefore point 2 of inner_shape cutafter point 7 of inner_shape withcolor red;
+%draw outer_circle cutbefore point 6 of outer_circle cutafter point 8 of outer_circle withcolor green;
+%draw outer_circle cutbefore point 0 of outer_circle cutafter point 2 of outer_circle withcolor blue;
+draw rhs withcolor red;
+fill rhs;
 endfig;
