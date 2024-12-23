@@ -31,8 +31,8 @@ beginfig(400) ;
   draw outer_circle cutbefore point 6 of outer_circle cutafter point 8 of outer_circle;
 
   path rhs;
-  rhs := outer_circle cutbefore point 0 of outer_circle cutafter point 2 of outer_circle
-         ..  inner_shape cutbefore point 2 of inner_shape cutafter point 7 of inner_shape
+  rhs := %outer_circle cutbefore point 0 of outer_circle cutafter point 2 of outer_circle
+           inner_shape cutbefore point 2 of inner_shape cutafter point 7 of inner_shape
          ..  outer_circle cutbefore point 6 of outer_circle cutafter point 8 of outer_circle
          %--  point 2 of inner_circle_hi
          %--  inner_circle_hi cutbefore point 0 of inner_circle_hi cutafter point 2 of inner_circle_hi
@@ -42,10 +42,11 @@ beginfig(400) ;
          %..  inner_circle_lo cutbefore point 6 of inner_circle_lo cutafter point 8 of inner_circle_lo
          .. cycle
          ;
+  show rhs;
 
-%draw inner_shape cutbefore point 2 of inner_shape cutafter point 7 of inner_shape withcolor red;
-%draw outer_circle cutbefore point 6 of outer_circle cutafter point 8 of outer_circle withcolor green;
-%draw outer_circle cutbefore point 0 of outer_circle cutafter point 2 of outer_circle withcolor blue;
-draw rhs withcolor red;
-fill rhs;
+  %draw inner_shape cutbefore point 2 of inner_shape cutafter point 7 of inner_shape withcolor red;
+  %draw outer_circle cutbefore point 6 of outer_circle cutafter point 8 of outer_circle withcolor green;
+  %draw outer_circle cutbefore point 0 of outer_circle cutafter point 2 of outer_circle withcolor blue;
+  draw rhs withcolor red;
+  %fill rhs;
 endfig;

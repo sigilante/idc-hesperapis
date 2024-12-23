@@ -2,7 +2,7 @@
 %%BoundingBox: -42 -39 32 42 
 %%HiResBoundingBox: -41.61504 -38.73473 31.5612 41.6111 
 %%Creator: MetaPost 2.02
-%%CreationDate: 2024.09.19:1811
+%%CreationDate: 2024.09.27:1103
 %%Pages: 1
 %%BeginProlog
 %%EndProlog
@@ -48,10 +48,5 @@ newpath 0 -35.86542 moveto
 7.60991 -35.86542 14.90721 -32.08601 20.28781 -25.36015 curveto
 25.66843 -18.6343 28.6919 -9.51253 28.6919 0 curveto
 28.6919 104.65196 -101.5815 -35.86542 0 -35.86542 curveto closepath stroke
- 0 0 0 setrgbcolor
-newpath 0 -35.86542 moveto
-7.60991 -35.86542 14.90721 -32.08601 20.28781 -25.36015 curveto
-25.66843 -18.6343 28.6919 -9.51253 28.6919 0 curveto
-28.6919 104.65196 -101.5815 -35.86542 0 -35.86542 curveto closepath fill
 showpage
 %%EOF
