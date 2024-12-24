@@ -1,5 +1,5 @@
-% U+10413 𐐓
-beginfig(413) ;
+% U+10422 𐐢
+beginfig(422) ;
   x_radius := 0.4 * font_size;
   y_radius := 0.5 * font_size;
 
@@ -38,7 +38,7 @@ beginfig(413) ;
   draw line shifted (-0.45*pen_width, 0);
   fill line shifted (-0.45*pen_width, 0);
 
-  currentpicture := currentpicture reflectedabout((0,0),(0,y_radius));
+  currentpicture := currentpicture reflectedabout((0,0),(x_radius,0));
 
   draw currentpicture;
 

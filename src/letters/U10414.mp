@@ -1,5 +1,5 @@
-% U+10415 𐐕
-beginfig(415) ;
+% U+10414 𐐔
+beginfig(414) ;
   x_radius := 0.4 * font_size;
   y_radius := 0.5 * font_size;
 
@@ -24,7 +24,7 @@ beginfig(415) ;
   inner_circle_h := fullcircle xscaled (1.2 * (x_radius+0.4*pen_height)) yscaled (1.2 * (y_radius+0.4*pen_height)) shifted (0, half_y);
   inner_circle_l := fullcircle xscaled (1.2 * (x_radius+0.4*pen_height)) yscaled (1.2 * (y_radius+0.4*pen_height)) shifted (0, -half_y);
   path inner_shape_upper;
-  inner_shape_upper := inner_circle_h cutbefore point 0.5 of inner_circle_h cutafter point 2 of inner_circle_h;
+  inner_shape_upper := inner_circle_h cutbefore point 0.2 of inner_circle_h cutafter point 2 of inner_circle_h;
   path inner_shape_lower;
   inner_shape_lower := inner_circle_l cutbefore point 6 of inner_circle_l cutafter point 7.8 of inner_circle_l;
 
@@ -50,14 +50,28 @@ beginfig(415) ;
   % fill outer_circle;
   unfill inner_shape;
 
-  pickup hair_pen;
-  path knob;
-  pair p, r;
-  numeric theta;
-  r = point 0.5 of inner_circle_h;
-  theta = angle(r);
-  p = ((xpart r) * cosd(theta), (ypart r) * sind(theta));
-  knob := fullcircle scaled (0.4*x_radius) shifted (1.15*p);
-  draw knob;
-  fill knob;
+  path loop;
+  numeric tx, ty;
+  tx := (xpart (point 1.25 of outer_circle)) + 0.5*pen_width;
+  ty := (ypart (point 1.25 of outer_circle)); % shifted (0, 0.5*penwidth);
+  loop = point 4 of outer_circle
+         .. tension 1.5
+         .. (0, 0)
+         .. (tx, ty);
+  draw loop;
+
+  pickup peg_pen;
+  path line;
+  line := (0.24*x_radius, y_radius)
+          -- (0, y_radius)
+          -- (0, -y_radius)
+          -- (0.24*x_radius, -y_radius)
+          -- cycle;
+  draw line shifted ((xpart point 0.5 of inner_circle_h)+0.2*pen_width, 0);
+  fill line shifted ((xpart point 0.5 of inner_circle_h)+0.2*pen_width, 0);
+
+%   currentpicture := currentpicture reflectedabout((0,0),(0,y_radius));
+
+%   draw currentpicture;
+
 endfig;

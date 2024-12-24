@@ -37,7 +37,7 @@ input letters/U1040a.mp; % Deseret Capital Letter Short O (𐐊) 4000
 input letters/U10411.mp; % Deseret Capital Letter Pe (𐐑)
 % input letters/U10412.mp; % Deseret Capital Letter Bee (𐐒)
 input letters/U10413.mp; % Deseret Capital Letter Tee (𐐓)
-% input letters/U10414.mp; % Deseret Capital Letter Dee (𐐔)
+input letters/U10414.mp; % Deseret Capital Letter Dee (𐐔)
 input letters/U10415.mp; % Deseret Capital Letter Chee (𐐕)
 % input letters/U10416.mp; % Deseret Capital Letter Jee (𐐖)
 % input letters/U10417.mp; % Deseret Capital Letter Kay (𐐗)
@@ -48,10 +48,10 @@ input letters/U1041b.mp; % Deseret Capital Letter Eth (𐐛) 4007
 % input letters/U1041c.mp; % Deseret Capital Letter Thee (𐐜) 4008
 % input letters/U1041d.mp; % Deseret Capital Letter Es (𐐝) 4009
 % input letters/U1041e.mp; % Deseret Capital Letter Zee (𐐞) 4010
-% input letters/U1041f.mp; % Deseret Capital Letter Esh (𐐟) 4011
+input letters/U1041f.mp; % Deseret Capital Letter Esh (𐐟) 4011
 % input letters/U10420.mp; % Deseret Capital Letter Zhee (𐐠)
 % input letters/U10421.mp; % Deseret Capital Letter Er (𐐡)
-% input letters/U10422.mp; % Deseret Capital Letter El (𐐢)
+input letters/U10422.mp; % Deseret Capital Letter El (𐐢)
 input letters/U10423.mp; % Deseret Capital Letter Em (𐐣)
 % input letters/U10424.mp; % Deseret Capital Letter En (𐐤)
 % input letters/U10425.mp; % Deseret Capital Letter Eng (𐐥)
