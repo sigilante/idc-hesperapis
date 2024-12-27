@@ -9,14 +9,16 @@ beginfig(410) ;
   pickup thin_pen;
 
   path inner_circle_hi, inner_circle_lo;
-  inner_circle_hi := fullcircle xscaled (0.8 * x_radius) yscaled (1.2 * y_radius) shifted (0, half_y);
-  inner_circle_lo := fullcircle xscaled (0.8 * x_radius) yscaled (1.2 * y_radius) shifted (0, -half_y);
+  inner_circle_hi := fullcircle xscaled (1.2 * x_radius) yscaled (1.2 * y_radius) shifted (0, half_y);
+  inner_circle_lo := fullcircle xscaled (1.2 * x_radius) yscaled (1.2 * y_radius) shifted (0, -half_y);
   path top_segment, bottom_segment;
-  top_segment := inner_circle_hi cutbefore point 0.2 of inner_circle_hi cutafter point 3.8 of inner_circle_hi;
+  top_segment := inner_circle_hi cutbefore point 0 of inner_circle_hi cutafter point 3.8 of inner_circle_hi;
   bottom_segment := inner_circle_lo cutbefore point 4.2 of inner_circle_lo cutafter point 7.8 of inner_circle_lo;
 
+  draw inner_circle_hi cutbefore point 0 of inner_circle_hi cutafter point 4 of inner_circle_hi;
+
   path outer_circle;
-  outer_circle   := fullcircle xscaled (1.2822 * x_radius) yscaled (2 * y_radius);
+  outer_circle   := fullcircle xscaled (1.685 * x_radius) yscaled (2 * y_radius);
 
   draw outer_circle cutbefore point 2 of outer_circle cutafter point 4 of outer_circle;
 
@@ -37,13 +39,8 @@ beginfig(410) ;
   fill line shifted (-0.45*pen_width, 0);
 
   pickup thin_pen;
-  path loop, circle;
-  circle := fullcircle xscaled (1.2 * x_radius) yscaled (1.2 * y_radius) shifted (0, 1.5*half_y);
-  loop := (point 0 of inner_circle_hi)
-          .. tension 5.0
-          .. (point 6 of inner_circle_hi)
-          .. (point 5 of inner_circle_hi)
-          .. (point 4 of inner_circle_hi);
-  draw inner_circle_hi cutbefore point 0.2 of inner_circle_hi cutafter point 4 of inner_circle_hi;
+  path loop;
+  loop := reverse (inner_circle_hi cutbefore point 6 of inner_circle_hi cutafter point 4 of inner_circle_hi)
+       -- (-0.5*x_radius, ypart point 6 of inner_circle_hi);
   draw loop;
 endfig;

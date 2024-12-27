@@ -1,5 +1,5 @@
-% U+10402 𐐂
-beginfig(402);
+% U+10401 𐐁
+beginfig(401);
   x_radius := 0.4 * font_size;
   y_radius := 0.5 * font_size;
 
@@ -24,9 +24,11 @@ beginfig(402);
   path inner_shape_lower;
   inner_shape_lower := inner_circle_l cutbefore point 6 of inner_circle_l cutafter point 7.8 of inner_circle_l;
 
-  path rhs;
-  rhs := reverse inner_shape_upper .. reverse inner_shape_lower;
-  draw rhs;
+  path rhs_up, rhs_bt;
+  rhs_up := inner_shape_upper;
+  rhs_bt := inner_shape_lower;
+  draw rhs_up;
+  draw rhs_bt;
 
   pickup thin_pen;
   path outer_circle_hi, outer_circle_lo;

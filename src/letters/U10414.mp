@@ -69,7 +69,7 @@ beginfig(414) ;
   tx := (xpart (point 1.25 of outer_circle)) + 0.5*pen_width;
   ty := (ypart (point 1.25 of outer_circle)); % shifted (0, 0.5*penwidth);
   loop = point 4 of outer_circle
-         .. tension 1.5
+        %  .. tension 1.5
          .. (0, 0)
          .. (tx, ty);
   draw loop;
