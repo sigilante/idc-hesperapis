@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- Created by MetaPost 2.02 on 2024.12.27:1652 -->
+<!-- Created by MetaPost 2.02 on 2024.12.27:1915 -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46.912231" height="77.469452" viewBox="0 0 46.912231 77.469452">
 <!-- Original BoundingBox: -19.870026 -38.734726 27.042206 38.734726 -->
   <g transform="matrix(-1.000000,-0.000000,-0.000000,1.000000,0.000000,0.000000)">

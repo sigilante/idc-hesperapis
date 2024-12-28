@@ -30,9 +30,9 @@ input letters/U10408.mp; % Deseret Capital Letter Short A (𐐈)
 input letters/U10409.mp; % Deseret Capital Letter Short Ah (𐐉)
 input letters/U1040a.mp; % Deseret Capital Letter Short O (𐐊) 4000
 input letters/U1040b.mp; % Deseret Capital Letter Short Oo (𐐋) 4001
-% input letters/U1040c.mp; % Deseret Capital Letter Ay (𐐌) 4002
-% input letters/U1040d.mp; % Deseret Capital Letter Ow (𐐍) 4003
-% input letters/U1040e.mp; % Deseret Capital Letter W (𐐎) 4004
+input letters/U1040c.mp; % Deseret Capital Letter Ay (𐐌) 4002
+input letters/U1040d.mp; % Deseret Capital Letter Ow (𐐍) 4003
+input letters/U1040e.mp; % Deseret Capital Letter W (𐐎) 4004
 % input letters/U1040f.mp; % Deseret Capital Letter Yee (𐐏) 4005
 input letters/U10410.mp; % Deseret Capital Letter H (𐐐)
 input letters/U10411.mp; % Deseret Capital Letter Pe (𐐑)
