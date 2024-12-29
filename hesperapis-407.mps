@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- Created by MetaPost 2.02 on 2024.12.27:1915 -->
+<!-- Created by MetaPost 2.02 on 2024.12.29:1033 -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34.430511" height="77.469452" viewBox="0 0 34.430511 77.469452">
 <!-- Original BoundingBox: -31.561203 -38.734726 2.869308 38.734726 -->
   <path d="M31.000000 2.134583L31.000000 73.865417" style="stroke:rgb(0.000000%,0.000000%,0.000000%); stroke-width: 5.738602;stroke-linecap: round;stroke-linejoin: round;stroke-miterlimit: 10.000000;fill: none;"></path>
