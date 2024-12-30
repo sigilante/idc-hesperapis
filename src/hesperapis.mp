@@ -14,7 +14,7 @@ pen flat_pen ;   flat_pen   = makepen ((0,0)--(pen_width,0));
 pen tall_pen ;   tall_pen   = makepen ((0,0)--(0,1.75*pen_width));
 
 % Format parameters
-outputtemplate := "%j-%c.mps";
+outputtemplate := "%j-%c.svg";
 outputformat := "svg";
 
 % Letters
@@ -42,12 +42,12 @@ input letters/U10414.mp; % Deseret Capital Letter Dee (𐐔)
 input letters/U10415.mp; % Deseret Capital Letter Chee (𐐕)
 input letters/U10416.mp; % Deseret Capital Letter Jee (𐐖)
 input letters/U10417.mp; % Deseret Capital Letter Kay (𐐗)
-% input letters/U10418.mp; % Deseret Capital Letter Gay (𐐘)
-% input letters/U10419.mp; % Deseret Capital Letter Ef (𐐙)
+input letters/U10418.mp; % Deseret Capital Letter Gay (𐐘)
+input letters/U10419.mp; % Deseret Capital Letter Ef (𐐙)
 input letters/U1041a.mp; % Deseret Capital Letter Vee (𐐚) 4006
 input letters/U1041b.mp; % Deseret Capital Letter Eth (𐐛) 4007
 input letters/U1041c.mp; % Deseret Capital Letter Thee (𐐜) 4008
-% input letters/U1041d.mp; % Deseret Capital Letter Es (𐐝) 4009
+input letters/U1041d.mp; % Deseret Capital Letter Es (𐐝) 4009
 input letters/U1041e.mp; % Deseret Capital Letter Zee (𐐞) 4010
 input letters/U1041f.mp; % Deseret Capital Letter Esh (𐐟) 4011
 input letters/U10420.mp; % Deseret Capital Letter Zhee (𐐠)

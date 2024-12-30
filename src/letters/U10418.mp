@@ -1,5 +1,5 @@
-% U+10417 𐐗
-beginfig(417);
+% U+10418 𐐘
+beginfig(418);
   x_radius := 0.4 * font_size;
   y_radius := 0.5 * font_size;
 
@@ -101,4 +101,11 @@ beginfig(417);
 %   draw lr_circle withcolor red;
 %   draw ll_circle withcolor green;
 %   draw line withcolor blue;
-  endfig;
+  path loop;
+  loop = point 2.25 of outer_circle
+      .. tension 1.5
+      .. point 2.25 of outer_circle shifted (0, -.5 * y_radius)
+      .. point 0.5 of outer_circle
+      ;
+  draw loop reflectedabout((0,0),(0,y_radius));
+endfig;
