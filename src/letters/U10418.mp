@@ -1,4 +1,5 @@
 % U+10418 𐐘
+% rotated 180 degrees in release version
 beginfig(418);
   x_radius := 0.4 * font_size;
   y_radius := 0.5 * font_size;

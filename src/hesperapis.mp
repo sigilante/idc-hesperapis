@@ -59,4 +59,11 @@ input letters/U10425.mp; % Deseret Capital Letter Eng (𐐥)
 input letters/U10426.mp; % Deseret Capital Letter Oi (𐐦)
 input letters/U10427.mp; % Deseret Capital Letter Ew (𐐧)
 
+input letters/Ue000.mp; % Deseret Capital Letter Variant MULE 4012
+input letters/Ue001.mp; % Deseret Capital Letter Variant CHOICE 4013
+input letters/Ue002.mp; % Deseret Capital Letter Variant SQUARE 4014
+input letters/Ue003.mp; % Deseret Capital Letter Variant Vee 4015
+input letters/Ue004.mp; % Deseret Capital Letter Variant Looped Short Ah 4016
+input letters/Ue005.mp; % Deseret Capital Letter Variant Looped Shart A 4017
+
 end

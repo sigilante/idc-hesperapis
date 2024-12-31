@@ -13,7 +13,8 @@ beginfig(407) ;
 
   pickup thin_pen;
   path arc_hi, arc_lo;
-  arc_hi := halfcircle scaled x_radius shifted (-.5*x_radius, -y_radius);
+  % arc_hi := halfcircle scaled x_radius shifted (-.5*x_radius, -y_radius);
+  arc_hi := halfcircle scaled (1.5*x_radius) shifted (-0.75*x_radius, -y_radius);
   arc_lo := point 0 of arc_hi
             .. point 2 of arc_hi shifted (0, -0.2*y_radius)
             .. point 4 of arc_hi;

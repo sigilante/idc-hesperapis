@@ -56,16 +56,16 @@ beginfig(416) ;
   numeric theta;
             r = 1.0*(point 0.95 of outer_circle);
   theta = angle(r);
-  p = ((xpart r - 0.28*pen_height) * cosd(theta), (ypart r - 0.28*pen_height) * sind(theta));
+  p = ((xpart r - 0.0*pen_height) * cosd(theta), (ypart r - 0.28*pen_height) * sind(theta));
   knob := fullcircle scaled (0.4*x_radius) shifted (1.15*p);
   draw knob;
   fill knob;
 
   pen knurl_pen;
-  knurl_pen = makepen((-1.0*pen_width, -y_radius)
-                      -- (1.0*pen_width, -y_radius)
+  knurl_pen = makepen((-1.0*pen_height, -y_radius)
+                      -- (1.0*pen_height, -y_radius)
                       -- ((xpart point 7.6 of inner_circle_l)+0.5*pen_height, ypart point 7.6 of inner_circle_l)
-                      -- ((xpart point 7.6 of inner_circle_l)+0.5*pen_height-2.0*pen_height, (ypart point 7.6 of inner_circle_l)-0.2*y_radius)
+                      -- 0.8[(-1.0*pen_height, -y_radius),((xpart point 7.6 of inner_circle_l)-1.5*pen_height, ypart point 7.6 of inner_circle_l)]
                       -- cycle
                      );
   pickup knurl_pen;

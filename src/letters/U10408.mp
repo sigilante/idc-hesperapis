@@ -13,11 +13,11 @@ beginfig(408) ;
 
   pickup thin_pen;
   path bar;
-  bar := (-.5*x_radius,.5*y_radius)
-         -- (-.5*x_radius,.26*y_radius)
-         -- (.5*x_radius,-.05*y_radius)
-        -- (.5*x_radius,.19*y_radius)
-        -- cycle;
+  bar := (-1.0*x_radius,(.5+.31/2)*y_radius)
+          -- (-1.0*x_radius,(.26+.31/2)*y_radius)
+          -- (.5*x_radius,-.05*y_radius)
+          -- (.5*x_radius,.19*y_radius)
+          -- cycle;
   draw bar shifted (-.5*x_radius,-y_radius);
   fill bar shifted (-.5*x_radius,-y_radius);
 endfig;

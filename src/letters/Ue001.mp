@@ -1,5 +1,5 @@
-% U+10405 𐐅
-beginfig(405) ;
+% U+e001 barred 𐐃
+beginfig(4013) ;
   x_radius := 0.4 * font_size;
   y_radius := 0.5 * font_size;
 
@@ -29,8 +29,19 @@ beginfig(405) ;
   fill outer_circle;
   unfill inner_shape;
 
-  pickup thin_pen;
-  path line;
-  line := (0, y_radius) -- (0, -y_radius);
-  draw line;
+  path loop;
+  loop = point 2.4 of outer_circle
+         .. tension 1.5
+         .. point 2.4 of outer_circle shifted (0, -.5 * y_radius)
+         .. point 0.5 of outer_circle
+         ;
+  draw loop;
+
+  path beam;
+  pair anchor;
+  anchor := (xpart (point 2.5 of outer_circle),0);
+  beam = anchor
+         -- (anchor + (0.5*x_radius,0.5*y_radius))
+         ;
+  draw beam;
 endfig;
