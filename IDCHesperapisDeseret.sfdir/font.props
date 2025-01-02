@@ -1,0 +1,50 @@
+SplineFontDB: 3.2
+FontName: IDCHesperapisDeseret
+FullName: IDC Hesperapis Deseret
+FamilyName: IDC Hesperapis
+Weight: Regular
+Copyright: (c) 2024 N. E. Davis for Illinois Deseret Consortium.  Made available under the SIL Open Font License 1.1.  "IDC Hesperapis" is a reserved font name under this license, but "Hesperapis" is not reserved.
+UComments: "2024-12-30: Created with FontForge (http://fontforge.org)"
+Version: 001.000
+ItalicAngle: 0
+UnderlinePosition: -100
+UnderlineWidth: 50
+Ascent: 800
+Descent: 200
+InvalidEm: 0
+LayerCount: 2
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+XUID: [1021 199 -2076698578 7736672]
+StyleMap: 0x0000
+FSType: 0
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1735566798
+ModificationTime: 1735837514
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 90
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+MarkAttachClasses: 1
+DEI: 91125
+Encoding: Custom
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -128
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 252 14 7
+BeginPrivate: 0
+EndPrivate
+EndSplineFont
