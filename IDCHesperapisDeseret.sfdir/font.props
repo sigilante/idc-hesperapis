@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1735566798
-ModificationTime: 1738983112
+ModificationTime: 1738984216
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -36,7 +36,7 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
-Lookup: 258 0 0 "'kern' Horizontal Kerning in Deseret (Mormon) lower left" { "'kern' Horizontal Kerning in Deseret (Mormon) lower left-1" [150,15,2] "'kern' Horizontal Kerning in Deseret (Mormon) lower left-2" [150,15,2] } ['kern' ('DFLT' <'dflt' > 'dsrt' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning in Deseret (Mormon) lower left" { "'kern' Horizontal Kerning in Deseret (Mormon) lower left-1" [150,15,2] "'kern' Horizontal Kerning in Deseret (Mormon) lower left-2" [150,15,2] "'kern' Horizontal Kerning in Deseret (Mormon) lower left-3" [150,15,2] } ['kern' ('DFLT' <'dflt' > 'dsrt' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Deseret (Mormon) lookup upper right" { "'kern' Horizontal Kerning in Deseret (Mormon) lookup upper right-1" [150,15,2] "'kern' Horizontal Kerning in Deseret (Mormon) lookup upper right-2" [150,15,2] } ['kern' ('DFLT' <'dflt' > 'dsrt' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
