@@ -1,6 +1,6 @@
 # IDC Hesperapis
 
-A Deseret Alphabet font reproducing the 1868–69 Russell Bros. typeface used in the _Deseret First Book_, _Deseret Second Book_, and _The Book of Mormon_ (1869 ed.).
+A Deseret Alphabet font reproducing the 1868–69 Russell Bros. typeface used in the [Deseret First Book](https://archive.org/details/thedeseretfirstb00unse), [Deseret Second Book](https://archive.org/details/thedeseretsecond02univ), and [The Book of Mormon (1869 ed.)](https://archive.org/details/bookofmormdeseretalpha00/page/n1/mode/2up).
 
 ## Characters
 
