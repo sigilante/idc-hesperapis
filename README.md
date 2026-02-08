@@ -2,6 +2,8 @@
 
 A Deseret Alphabet font reproducing the 1868–69 Russell Bros. typeface used in the [Deseret First Book](https://archive.org/details/thedeseretfirstb00unse), [Deseret Second Book](https://archive.org/details/thedeseretsecond02univ), and [The Book of Mormon (1869 ed.)](https://archive.org/details/bookofmormdeseretalpha00/page/n1/mode/2up).
 
+![](./img/overview.png)
+
 ## Characters
 
 The Deseret alphabet is encoded from U+10400–U+1044F in Unicode.  This font supplies the 40-letter Deseret Alphabet characters at the standard codepoints.
