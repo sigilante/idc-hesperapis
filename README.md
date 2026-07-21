@@ -2,6 +2,8 @@
 
 A Deseret Alphabet font reproducing the 1868–69 Russell Bros. typeface used in the [Deseret First Book](https://archive.org/details/thedeseretfirstb00unse), [Deseret Second Book](https://archive.org/details/thedeseretsecond02univ), and [The Book of Mormon (1869 ed.)](https://archive.org/details/bookofmormdeseretalpha00/page/n1/mode/2up).
 
+Produced under the auspices of the [Illinois Deseret Consortium](http://faculty.las.illinois.edu/rshosted/deseret.html).  Utilized in [*The Deseret Alphabet: A Fixed and Unalterable Sound*](https://www.press.uillinois.edu/books/?id=p089428).
+
 ![](./img/overview.png)
 
 ## Characters
