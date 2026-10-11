@@ -4,7 +4,7 @@ A Deseret Alphabet font reproducing the 1868–69 Russell Bros. typeface used in
 
 Produced under the auspices of the [Illinois Deseret Consortium](http://faculty.las.illinois.edu/rshosted/deseret.html).  Utilized in [*The Deseret Alphabet: A Fixed and Unalterable Sound*](https://www.press.uillinois.edu/books/?id=p089428).
 
-![](./img/IDCHesperapis-specimen.png)
+![](./img/IDCHesperapis-Regular.png)
 
 ## Characters
 
