@@ -1,0 +1,18 @@
+# Build settings for the Deseret Type Foundry toolkit (`dtf build`, `dtf specimens`).
+
+[font]
+family = "IDC Hesperapis"
+fontname = "IDCHesperapis"
+copyright = "ⓒ 2024 N. E. Davis for Illinois Deseret Consortium.  Made available under the SIL Open Font License 1.1.  “IDC Hesperapis” is a reserved font name under this license, but “Hesperapis” is not reserved."
+vendor = "ILDC"
+
+[source]
+main = "src/hesperapis.mp"
+frame = "6 * font_size"
+
+[metrics]
+baseline = "-y_radius"
+cap_height = "2 * y_radius"
+
+[weights]
+Regular = { class = 400 }
