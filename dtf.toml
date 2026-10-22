@@ -16,3 +16,7 @@ cap_height = "2 * y_radius"
 
 [weights]
 Regular = { class = 400 }
+
+[output]
+fonts = "fonts"
+webfonts = "fonts/web"

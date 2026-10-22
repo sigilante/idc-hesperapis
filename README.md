@@ -6,6 +6,13 @@ Produced under the auspices of the [Illinois Deseret Consortium](http://faculty.
 
 ![](./img/IDCHesperapis-Regular.png)
 
+## Files
+
+- `fonts/IDCHesperapis-Regular.otf`: the desktop font.
+- `fonts/web/`: the web font (`IDCHesperapis-Regular.woff2`), `IDCHesperapis.css` with its `@font-face`, and a test page. Link the CSS and set `font-family: "IDC Hesperapis"`.
+
+Both are built from `src/` with the [DTF toolkit](https://github.com/Deseret-Type-Foundry/toolkit) (`dtf all`).
+
 ## Characters
 
 The Deseret alphabet is encoded from U+10400–U+1044F in Unicode.  This font supplies the 40-letter Deseret Alphabet characters at the standard codepoints.
