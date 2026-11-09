@@ -4,12 +4,13 @@ A Deseret Alphabet font reproducing the 1868–69 Russell Bros. typeface used in
 
 Produced under the auspices of the [Illinois Deseret Consortium](http://faculty.las.illinois.edu/rshosted/deseret.html).  Utilized in [*The Deseret Alphabet: A Fixed and Unalterable Sound*](https://www.press.uillinois.edu/books/?id=p089428).
 
-![](./img/IDCHesperapis-Regular.png)
+![](./img/Hesperapis-Regular.png)
 
 ## Files
 
-- `fonts/IDCHesperapis-Regular.otf`: the desktop font.
-- `fonts/web/`: the web font (`IDCHesperapis-Regular.woff2`), `IDCHesperapis.css` with its `@font-face`, and a test page. Link the CSS and set `font-family: "IDC Hesperapis"`.
+- `fonts/Hesperapis-Regular.otf`: the desktop font.
+- `fonts/web/`: the web font (`Hesperapis-Regular.woff2`), `Hesperapis.css` with its `@font-face`, and a test page. Link the CSS and set `font-family: "IDC Hesperapis"`.
+- `fonts/web/minuscule/`: the same with only the minuscules, figures and punctuation (`dtf webfonts --minuscule-only`), for previews.
 
 Both are built from `src/` with the [DTF toolkit](https://github.com/Deseret-Type-Foundry/toolkit) (`dtf all`).
 
